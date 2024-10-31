@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Bebas Neue Thin';
+    src: url(../fonts/bebasneuethin.woff) format('woff');
+    
+}
+@font-face {
+    font-family: 'Bebas Neue Light';
+    src: url(../fonts/bebasneuelight.woff) format('woff');
+   
+}
+@font-face {
+    font-family: 'Bebas Neue Book';
+    src: url(../fonts/bebasneuebook.woff) format('woff');
+   
+}
+@font-face {
+    font-family: 'Bebas Neue Regular';
+    src: url(../fonts/bebasneueregular.woff) format('woff');
+  
+}
+@font-face {
+    font-family: 'Bebas Neue Bold';
+    src: url(../fonts/bebasneuebold.woff) format('woff');
+   
+}

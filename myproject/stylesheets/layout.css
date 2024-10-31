@@ -1,0 +1,670 @@
+body { 
+  overflow-x: hidden; 
+  display: block; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;  
+  width: 1440px;
+
+ 
+    
+}
+.main { 
+     
+   
+  position: relative; 
+  background: white; 
+}
+section {
+  border-color: white;
+  box-sizing: border-box;
+  border-style: solid;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
+ .first_screen { 
+    width: 100%;
+    height: 1140px;  
+    display: flex;
+    background: url(../images/firstscreen.jpg);
+    background-size: cover; 
+  
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+     
+      
+}
+.heading{
+  display: flex;
+
+  margin-left: 780px;
+  margin-top: 230px;
+  rotate: -20deg;
+  text-align: left; 
+  flex-direction: column; 
+  position: relative;
+}
+h1 {
+  
+  
+  font-size: 185px;
+  font-family:'Bebas Neue Bold', sans-serif; 
+  color: aliceblue;
+  -webkit-text-stroke: 2px #000000;
+  position: relative;
+}
+
+h2 {
+  font-size: 59px;
+  font-family:'Bebas Neue Bold', sans-serif; 
+  color: rgb(0, 0, 0);
+  position: relative;
+  
+
+  
+}
+
+.author{
+  margin-left: -630px;
+  margin-top: 690px;
+  font-size: 34px;
+  font-family:'Bebas Neue Regular', sans-serif; 
+  color: rgb(0, 0, 0);
+  rotate: -20deg;
+  text-align: center; 
+  position: relative;
+}
+.form{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  margin-left: 55px;
+  margin-top: 423px;
+  rotate: -20deg;
+  text-align: center; 
+  position: relative;
+  gap: 100px;
+}
+.top{
+  font-size: 34px;
+  font-family:'Bebas Neue Regular', sans-serif; 
+  color: rgb(0, 0, 0);
+}
+.year{
+  font-size: 25px;
+  font-family:'Bebas Neue Regular', sans-serif; 
+  color: rgb(0, 0, 0);
+}
+
+.bigletters{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  margin-left: -555px;
+  margin-top: 700px;
+  rotate: -20deg;
+  text-align: center; 
+  position: relative;
+  
+}
+.go{
+  font-size: 185px;
+  font-family:'Bebas Neue Regular', sans-serif; 
+  color: #DC2328;
+  -webkit-text-stroke: 3px #000000;
+  
+}
+.font{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  margin-left: -235px;
+  margin-top: 212px;
+  rotate: 70deg;
+  text-align: center; 
+  position: relative;
+  gap: 100px;
+}
+
+.user{
+  margin-left: -510px;
+  margin-top: 80px;
+  font-size: 34px;
+  font-family:'Bebas Neue Regular', sans-serif; 
+  color: rgb(0, 0, 0);
+  rotate: 70deg;
+  text-align: center; 
+  position: relative;
+}
+.lang{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  margin-left: 175px;
+  margin-top: -542px;
+  rotate: 70deg;
+  text-align: center; 
+  position: relative;
+  gap: 100px;
+}
+.different{
+  margin-left: -790px;
+  margin-top: -480px;
+  font-size: 34px;
+  font-family:'Bebas Neue Regular', sans-serif; 
+  color: rgb(0, 0, 0);
+  rotate: 70deg;
+  text-align: center; 
+  position: relative;
+}
+.question{
+  margin-left: 1500px;
+  margin-top: 540px;
+  font-size: 270px;
+  font-family:'Bebas Neue Regular', sans-serif; 
+  color: #EA8C2C;
+  -webkit-text-stroke: 3px #000000;
+  rotate: -20deg;
+  text-align: center; 
+  position: relative;
+}
+.question2{
+  margin-left: -1220px;
+  margin-top: 440px;
+  font-size: 200px;
+  font-family:'Bebas Neue Regular', sans-serif; 
+  color: #ffffff;
+  -webkit-text-stroke: 3px #000000;
+  rotate: 16deg;
+  text-align: center; 
+  position: relative;
+}
+.question3{
+  margin-left: -180px;
+  margin-top: 350px;
+  font-size: 200px;
+  font-family:'Bebas Neue Regular', sans-serif; 
+  color: #ffffff;
+  -webkit-text-stroke: 3px #000000;
+  rotate: 11deg;
+  text-align: center; 
+  position: relative;
+}
+.text{
+  font-size: 48px;
+  font-family:'Bebas Neue Regular', sans-serif; 
+  margin: 50px;
+  width: 800px;
+}
+.fonttype{
+  margin-top: -100px;
+    width: 100%;
+    height:720px;
+    display: flex;
+    background: url(../images/fonttype.jpg);
+    background-size: cover; 
+    
+   
+   
+   
+}
+.bold{
+  margin-left: 100px;
+  margin-top: -100px;
+ 
+  rotate: -5deg;
+  display: flex;
+  text-align: center; 
+  flex-direction: column; 
+  justify-content: center;
+  position: relative;
+}
+.boldname{
+  font-size: 56px;
+  font-family:'Bebas Neue Bold', sans-serif; 
+  color: rgb(241, 241, 241);
+}
+.Abold{
+  font-size: 270px;
+  font-family:'Bebas Neue Bold', sans-serif; 
+  color: #000000;
+}
+.regular{
+  margin-left: 140px;
+  margin-top: 220px;
+  rotate: 7deg;
+  display: flex;
+  text-align: center; 
+  flex-direction: column; 
+  justify-content: center;
+  gap: -15px;
+  position: relative;
+  
+}
+.regularname{
+  font-size: 56px;
+  font-family:'Bebas Neue Regular', sans-serif; 
+  color: rgb(241, 241, 241);
+}
+.Aregular{
+  font-size: 270px;
+  font-family:'Bebas Neue Regular', sans-serif; 
+  color: #000000;
+}
+.book{
+  margin-left: 168px;
+  margin-top: -93px;
+  rotate: -3deg;
+  display: flex;
+  text-align: center; 
+  flex-direction: column; 
+  justify-content: center;
+  gap: -15px;
+  position: relative;
+  
+}
+.bookname{
+  font-size: 56px;
+  font-family:'Bebas Neue Book', sans-serif; 
+  color: rgb(241, 241, 241);
+}
+.Abook{
+  font-size: 270px;
+  font-family:'Bebas Neue Book', sans-serif; 
+  color: #000000;
+}
+.light{
+  margin-left: 180px;
+  margin-top: 185px;
+  rotate: -8deg;
+  display: flex;
+  text-align: center; 
+  flex-direction: column; 
+  justify-content: center;
+  gap: -15px;
+  position: relative;
+  
+}
+.lightname{
+  font-size: 56px;
+  font-family:'Bebas Neue Light', sans-serif; 
+  color: rgb(241, 241, 241);
+}
+.Alight{
+  font-size: 270px;
+  font-family:'Bebas Neue Light', sans-serif; 
+  color: #000000;
+}
+.thin{
+  margin-left: 147px;
+  margin-top: -225px;
+  rotate: 4deg;
+  display: flex;
+  text-align: center; 
+  flex-direction: column; 
+  justify-content: center;
+  gap: -15px;
+  position: relative;
+  
+}
+.thinname{
+  font-size: 56px;
+  font-family:'Bebas Neue Thin', sans-serif; 
+  color: rgb(241, 241, 241);
+}
+.Athin{
+  font-size: 270px;
+  font-family:'Bebas Neue Thin', sans-serif; 
+  color: #000000;
+}
+.glif{
+  margin-top: 100px;
+  margin-left: 50px;
+  rotate: 6deg;
+  display: flex;
+  text-align: left; 
+  flex-direction: row; 
+  justify-content: center;
+  position: relative;
+}
+.glif h3{
+  font-size: 235px;
+  margin-top: 20px;
+  font-family:'Bebas Neue Bold', sans-serif; 
+  color: #EA8C2C;
+  -webkit-text-stroke: 3px #000000;
+  
+}
+.sign{
+  margin-top: -130px;
+  height: 1393px; 
+  width: 100%;
+  display: flex;
+ 
+}
+.numbers{
+  margin-top: 100px;
+  display: flex;
+  text-align: left; 
+  flex-direction: row;
+  justify-content: center; 
+  
+  
+}
+.numbers h3{
+  margin-right: 50px;
+  font-size: 250px;
+  font-family:'Bebas Neue Bold', sans-serif; 
+  color: #4556E8;
+  -webkit-text-stroke: 3px #000000;
+  
+}
+.money{
+  height: 1200px; 
+  width: 100%;
+  display: flex;
+}
+
+
+.alphabet{
+  margin-top: 100px;
+  width: 100%;
+  height:1100px;
+  display: flex;
+  background: url(../images/alphabet.jpg);
+  background-size: cover; 
+ 
+}
+.cyrillic{
+margin-left: 160px;
+margin-top: -630px;
+rotate: 2deg;
+display: flex;
+text-align: center; 
+flex-direction: column; 
+justify-content: center;
+position: relative;
+gap: 25px;
+}
+.headcyrillic{
+font-size: 56px;
+font-family:'Bebas Neue Bold', sans-serif; 
+color: #13A656;
+}
+.cyrillicabc{
+font-size: 80px;
+letter-spacing: 10px;
+font-family:'Bebas Neue Regular', sans-serif; 
+color: #000000;
+}
+.latin{
+  margin-left: -463px;
+  margin-top: 480px;
+  rotate: -6deg;
+  display: flex;
+  text-align: center; 
+  flex-direction: column; 
+  justify-content: center;
+  position: relative;
+  gap: 25px;
+  }
+  .headlatin{
+  font-size: 56px;
+  font-family:'Bebas Neue Bold', sans-serif; 
+  color: #13A656;
+  }
+  .latinabc{
+  font-size: 80px;
+  letter-spacing: 10px;
+  font-family:'Bebas Neue Regular', sans-serif; 
+  color: #000000;
+  }
+
+.headalphabet{
+margin-left: 115px;
+margin-top: 330px;
+rotate: 20deg;
+font-size: 120px;
+font-family:'Bebas Neue Bold', sans-serif; 
+color: #ffffff;
+-webkit-text-stroke: 3px #000000;
+
+}
+.alphabettext{
+  font-size: 48px;
+  font-family:'Bebas Neue Regular', sans-serif; 
+  margin: 50px;
+  margin-top: 760px;
+  margin-left: -275px;
+}
+.featurescyrillic{
+  margin-right: 50px;
+  margin-top: 100px;
+  text-align: left; 
+  position: relative;
+
+
+}
+.featurescyrillic h3{
+  
+  font-size: 250px;
+  font-family:'Bebas Neue Bold', sans-serif; 
+  color: #DC2328;
+  -webkit-text-stroke: 3px #000000;
+  margin-left: 50px;
+ 
+  
+}
+.featurescyrillic img{
+  margin-left: 985px;
+  margin-top: -184px;
+    width: 448px;
+    height: 153px;
+    position: absolute;
+  }
+  .cyrillicletters{
+    width: 100%;
+    height: 624px;
+    display: flex;
+  }
+  
+  .featuredesc{
+    margin-left: 0px;
+    width: 800px;
+  }
+  .houses{
+    margin-left: 860px;
+    margin-top: -350px;
+   
+  }
+  .featureslatin{
+    margin-right: 50px;
+    margin-top: 100px;
+    text-align: right; 
+    position: relative;
+  
+  
+  }
+  .featureslatin h3{
+    
+    font-size: 250px;
+    font-family:'Bebas Neue Bold', sans-serif; 
+    color: #13A656;
+    -webkit-text-stroke: 3px #000000;
+    margin-left: 50px;
+   
+    
+  }
+  .featureslatin img{
+    margin-left: -1390px;
+    margin-top: -184px;
+      width: 448px;
+      height: 153px;
+      position: absolute;
+  }
+  .latinletters{
+    width: 100%;
+    height: 624px;
+    display: flex;
+  }
+
+  
+    .legatures h3{
+    margin-top: 200px;
+    font-size: 250px;
+    font-family:'Bebas Neue Bold', sans-serif; 
+    color: #DC2328;
+    -webkit-text-stroke: 3px #000000;
+    justify-content: center;
+    text-align: center;
+    }
+    .legaturestext{
+      text-align: left; 
+    justify-content: center;
+    margin-left: 300px;
+    font-size: 48px;
+   font-family:'Bebas Neue Regular', sans-serif;      
+      }
+  
+
+    .figurs{
+      margin-top: 40px;
+      width: 100%;
+      height:492px;
+      display: flex;
+      background: url(../images/legatures.jpg);
+      background-size: cover;
+      }
+    .firstfigurs{
+    margin-top: 80px;
+    margin-left: 60px;
+    font-size: 320px;
+    rotate: -5deg;
+    font-family:'Bebas Neue Bold', sans-serif; 
+    color: #DC2328;
+    -webkit-text-stroke: 3px #000000;
+   }
+   .secondfigurs{
+    margin-top: 60px;
+    margin-left: 180px;
+    font-size: 320px;
+    rotate: 4deg;
+    font-family:'Bebas Neue Bold', sans-serif; 
+    color: #ffffff;
+    -webkit-text-stroke: 3px #000000;
+   }
+   .thirdfigurs{
+    margin-top: 110px;
+    margin-left: 190px;
+    font-size: 320px;
+    rotate: 6deg;
+    font-family:'Bebas Neue Bold', sans-serif; 
+    color: #DC2328;
+    -webkit-text-stroke: 3px #000000;
+   }
+   .foughtfigurs{
+    margin-top: 120px;
+    margin-left: 210px;
+    font-size: 320px;
+    rotate: -6deg;
+    font-family:'Bebas Neue Bold', sans-serif; 
+    color: #ffffff;
+    -webkit-text-stroke: 3px #000000;
+   }
+
+   .language{
+    margin-right: 50px;
+    margin-top: 200px;
+    text-align: left; 
+    position: relative;
+  
+  }
+  .language h3{
+    
+    font-size: 250px;
+    font-family:'Bebas Neue Bold', sans-serif; 
+    color: #ffffff;
+    -webkit-text-stroke: 3px #000000;
+    margin-left: 50px;    
+  }
+  .language img{
+    margin-left: 1080px;
+    margin-top: -250px;
+      width: 290px;
+      height: 260px;
+      position: absolute;
+  }
+  .cards{
+    margin-top: 50px;
+    width: 100%;
+    height:748px;
+    display: flex;
+    background: url(../images/cards.jpg);
+    background-size: cover;
+    }
+  .and{
+    font-size: 56px;
+    font-family:'Bebas Neue Regular', sans-serif; 
+    color: #ffffff;
+  }
+  .other{
+    font-size: 56px;
+    font-family:'Bebas Neue Regular', sans-serif; 
+    color: #000000;
+  }
+.firstcard{
+  margin-left: 170px;
+  margin-top: -55px;
+  display: flex;
+  text-align: center; 
+  flex-direction: column; 
+  justify-content: center;
+  position: relative;
+  gap: 80px;
+}
+.secondcard{
+  margin-left: 250px;
+  margin-top: -55px;
+  display: flex;
+  text-align: center; 
+  flex-direction: column; 
+  justify-content: center;
+  position: relative;
+  gap: 80px;
+}
+.thirdcard{
+  margin-left: 250px;
+  margin-top: -55px;
+  display: flex;
+  text-align: center; 
+  flex-direction: column; 
+  justify-content: center;
+  position: relative;
+  gap: 80px;
+}
+.down{
+  margin-top: 100px;
+  width: 100%;
+  height:238px;
+  display: flex;
+  background: url(../images/down.jpg);
+  background-size: cover;
+  }
+  .down p{
+    margin: 50px;
+    font-size: 40px;
+    font-family:'Bebas Neue Regular', sans-serif; 
+    color: #000000;
+  }
+  .down img{
+    margin-left: 670px;
+    margin-top: 50px;
+    width: 387px;
+   height: 155px;
+  }
